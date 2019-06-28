@@ -1,0 +1,23 @@
+// FizzBuzz
+
+
+// サンプル: "FizzBuzz" という文字列を出力
+// (process.stdout.write で改行なしの出力ができる)
+process.stdout.write("Fizz");
+process.stdout.write("Buzz");
+console.log();
+
+
+for (let i = 1; i < 16; i++) {
+        console.log(i);
+}
+
+if (i % 3) {
+    console.log("Fizz");
+}   else if (i % 5) {
+    console.log("Buzz");
+}   else if (i % 3 && i % 5) {
+    console.log("FizzBuzz");
+}   else {
+    console.log(x);
+}
